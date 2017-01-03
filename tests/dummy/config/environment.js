@@ -18,6 +18,10 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    BaiduMap: {
+      secret: 'M4yZGhXqgwVEyKnDGMOTY12WaHBByDKE'
     }
   };
 

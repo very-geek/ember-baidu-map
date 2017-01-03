@@ -1,5 +1,10 @@
-'use strict';
+'use strict'
 
 module.exports = function(/* environment, appConfig */) {
-  return { };
-};
+  return {
+    BaiduMap: {
+      async: true,
+      secret: null
+    }
+  }
+}
