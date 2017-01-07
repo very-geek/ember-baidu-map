@@ -4,7 +4,7 @@ module.exports = {
   name: 'ember-baidu-map',
 
   isDevelopingAddon() {
-    return process.env.EMBER_ENV === 'production'
+    return process.env.EMBER_ENV !== 'production'
   },
 
   contentFor(type, config) {
